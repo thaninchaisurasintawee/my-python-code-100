@@ -1,5 +1,6 @@
 # Exercise 1: Basic Input
 # Ask the user for their name and greet them
+"""
 print("=== Exercise 1: Basic Input ===")
 user_name = input("What is your name? ")
 print("Hello,", user_name, "!")
@@ -12,6 +13,7 @@ age_string = input("How old are you? ")
 age = int(age_string)  # Convert string to integer
 print("You are", age, "years old")
 print("Next year you will be", age + 1, "years old")
+
 
 # Exercise 3: Multiple Inputs
 print("\n=== Exercise 3: Multiple Inputs ===")
@@ -73,7 +75,7 @@ print("Age:", age)
 print("Favorite Color:", color)
 print("Hometown:", hometown)
 print("Thank you for sharing!")
-
+"""
 # Exercise 7: Simple Calculator
 print("\n=== Exercise 7: Simple Calculator ===")
 # Ask user for two numbers and an operation

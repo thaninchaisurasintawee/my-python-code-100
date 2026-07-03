@@ -10,8 +10,11 @@ print("My name is Your Name")
 # Write three print statements that display:
 # Line 1: Your name
 # Line 2: Your age
-# Line 3: Your favorite hobbyๅ
+# Line 3: Your favorite hobby
 # Write your code here:
+print("Thanin")
+print("19")
+print("talk with ai")
 
 
 # Exercise 4: Print with Different Content
@@ -41,3 +44,13 @@ print("Python is fun!")
 
 # 
 print("I am learning to code!")
+"""
+    efefesfds
+    sffdfs
+    sdfdsffesfs
+    dsfdfdsff
+    sfsfsfesfesfsefs
+    fsfesfesfesfes
+    fesfefesfesfes
+    fesfsfs
+"""

@@ -17,7 +17,7 @@ Below 18.5: Underweight
 30.0 and above: Obese
 
 """
-
+weight = input("")
 
 """
 Question 2: Currency Converter (20 points)
