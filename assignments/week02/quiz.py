@@ -17,7 +17,22 @@ Below 18.5: Underweight
 30.0 and above: Obese
 
 """
-weight = input("")
+weight = float(input("Weight: "))
+height = float(input("Height: "))
+
+bmi = weight / (height * height)
+
+if bmi < 18.5:
+    category = "Underweight"
+elif bmi < 25:
+    category = "Normal weight"
+elif bmi < 30:
+    category = "Overweight"
+else:
+    category = "Obese"
+
+print(f"BMI = {bmi:.1f}")
+print("Category =", category)
 
 """
 Question 2: Currency Converter (20 points)
@@ -31,3 +46,26 @@ Use exchange rate: 1 USD = 35.5 THB
 Display result with 2 decimal places
 Show the calculation formula used
 """
+
+exchange_rate = 35.5
+
+print("1. THB to USD")
+print("2. USD to THB")
+
+choice = input("Choose conversion direction (1 or 2): ")
+amount = float(input("Enter the amount: "))
+
+if choice == "1":
+    result = amount / exchange_rate
+
+    print("Formula: THB / 35.5 = USD")
+    print(format(amount, ".2f"), "THB =", format(result, ".2f"), "USD")
+
+elif choice == "2":
+    result = amount * exchange_rate
+
+    print("Formula: USD * 35.5 = THB")
+    print(format(amount, ".2f"), "USD =", format(result, ".2f"), "THB")
+
+else:
+    print("Invalid choice")
