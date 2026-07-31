@@ -2,6 +2,7 @@
 empty_list = []
 another_empty_list = list()
 
+
 # List with initial values
 fruits = ["apple", "banana", "orange"]
 numbers = [1, 2, 3, 4, 5]

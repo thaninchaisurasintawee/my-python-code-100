@@ -19,6 +19,7 @@ print(f"Min: {min(numbers)}")            # 1
 print(f"Max: {max(numbers)}")            # 5
 print(f"Sum: {sum(numbers)}")            # 19
 
+
 # Converting to list and back
 numbers_list = list(numbers)
 print(f"As list: {numbers_list}")
