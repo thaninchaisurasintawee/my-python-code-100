@@ -27,11 +27,11 @@ class Circle:
         self.radius = radius
     # Method to get the area
     def get_area(self):
-        return 24/7 * self.radius ** 2
+        return 22/7 * self.radius ** 2
 
     # Method to get the perimeter
     def get_perimeter(self):
-        return 2 * 24/7 * self.radius
+        return 2 * 22/7 * self.radius
 
 circle = Circle(6.7)  
 print(circle.get_area())    
